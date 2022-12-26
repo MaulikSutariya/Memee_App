@@ -26,6 +26,7 @@ export default function Chat() {
 
   const sendMess = (event) => {
     setMessage(event.target.value);
+    setMessage("")
   };
   window.onload = function () {
     //sending
