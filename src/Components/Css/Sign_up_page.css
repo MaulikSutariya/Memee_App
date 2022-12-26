@@ -1,0 +1,22 @@
+#signupparagraph{
+    font-size: 11px;
+    margin-top:15px;
+}
+.movesignup2{
+    text-align: center;
+    margin-top: 70px;   
+    width: 100%;
+    
+}
+.movesignup2 h4{
+    font-size: 15px;
+    color: var(  --sign_in_text_p_color);
+}
+.movesignup2 h4 span{
+    color: var(--movesignupspan_color)
+}
+.movesignup2 p{
+    color: var(  --sign_in_text_p_color);
+    font-size: 12px;
+    margin: 0;
+}

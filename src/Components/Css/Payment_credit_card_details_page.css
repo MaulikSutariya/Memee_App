@@ -1,0 +1,204 @@
+.Payment_credit_card_details_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 17px;
+}
+.credit_wrapper {
+  
+    width: 100%;
+    padding: 15px 0px;
+    
+  }
+  .credit_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .credit_back {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+  }
+  .credit_center_text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .credit_plus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .platinum_container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .platinum_container img {
+    border-radius: 24px;
+    width: 100%;
+  }
+  .card_holder_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  .card_name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .card_name_info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .proceed_continue_btn {
+    background: linear-gradient(180deg, #FFDE88 0%, #FFB905 100%);
+    border-radius: 200px;
+    position: absolute;
+    bottom: 20px;
+    padding: 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: calc(100% - 40px);
+    color: #000000;
+    margin: 0 20px;
+    left: 0;
+    text-align: center;
+  }
+  .sliderOpen {
+    background: #211F24;
+    border-radius: 30px 30px 0px 0px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 292px;
+    padding: 24px;
+    padding-top: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  .sliderClose {
+    height: 0;
+    padding: 24px;
+  }
+  .sliderOpen .ul_list .edit_delete {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .ul_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  .line {
+    height: 5px;
+    width: 40px;
+    background-color: #EAEAEA;
+    margin: 6px auto;
+    border-radius: 2.5px;
+    transition: all 0.5s ease-in-out;
+  }
+  .showImagewrapper {
+    padding: 12px;
+    background-color: #454545;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgWrapper {
+    display: none;
+  }
+  .set_slider_font {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .slider_font_none {
+    display: none;
+  }
+  .removeCardPage {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .removeCard {
+    background-color: #211F24;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .removeCard p{
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .removeCard h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .visa_center_img_card {
+    margin-top: 8px;
+  }
+  .ending_in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .credit_confirm {
+    background: linear-gradient(180deg, #FFDE86 0%, #FFBB0A 100%);
+    border-radius: 25px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #151515;
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 24px;
+  }
+  .credit_cancel {
+    background: #B8BDC0;
+    border-radius: 40px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    padding: 8px 0;
+  }
+  .platinumcardmain{
+    margin-top: 30px;
+  }

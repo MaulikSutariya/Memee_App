@@ -1,0 +1,67 @@
+.Profile_Setting{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 10px;
+}
+.P_S{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    margin: 10px 0;
+}
+.P_Setting_1{
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+.P_Setting_1_1{
+    padding-left: 15px;
+    padding-top: 10px;
+    background: var( --p_settings_svg_bg_color);
+    height: 48px;
+    width: 48px;
+    border-radius: 12px;
+}
+.P_Setting_1_1 svg{
+    fill: var( --p_1_setting_svg);
+}
+.P_Setting_1_2{
+    margin-left: 15px;
+}
+.P_Setting_1_2 h5{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+}
+.P_Setting_1_2 h6{
+    margin: 0;
+    color: var( --p_setting-1_2-color);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.P_Setting_2{
+    margin-right: 15px;
+}
+#psethr{
+    margin: 0;
+    border: 1px solid white;
+}
+
+.logout{
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+    padding: 0 15px;
+}
+.logout button{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+   background:var( --Button_theme);
+   color: var( --A_M_h4_color);
+    font-weight: 600;
+}

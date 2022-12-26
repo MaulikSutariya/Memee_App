@@ -1,0 +1,56 @@
+.Support_page_chat {
+  height: 100vh;
+  background: var(--main_page_background_color);
+  overflow: auto;
+  padding-bottom: 80px;
+}
+.supp_chat_arr {
+  padding: 10px;
+}
+.support_chat {
+  display: flex;
+  padding: 15px 5px;
+  border-radius: 15px;
+  margin-top: 25px;
+  /* margin-left:7px; */
+  /* margin-right: 7px; */
+  justify-content: space-between;
+}
+.support_chat h3 {
+  color:var(--support_pending_color);
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+.sup_chat_1 p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 13px;
+  font-weight: 300;
+}
+.sup_chat_1 {
+  padding: 0 17px;
+}
+.reportodsup {
+  padding-left: 70px;
+  padding-right: 10px;
+}
+.reportodsup img{
+    margin-right: 10px;
+}
+
+.supp_3{
+    margin-left: 22px;
+}
+.supp_3 h4{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.supp_3 h5{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}

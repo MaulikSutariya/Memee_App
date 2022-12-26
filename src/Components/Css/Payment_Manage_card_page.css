@@ -1,0 +1,63 @@
+.Payment_Manage_card_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 17px;
+}
+.method_wrapper {
+   
+    padding: 15px 0px;
+  }
+  .method_top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .method_back {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+  }
+  .method_center_text {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .method_plus {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .visa_container {
+    /* border: 1.5px solid #323232; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-bottom: 16px;
+    background-color: #211F24;
+  }
+  .visa_info {
+    padding-left: 20px;
+  }
+  .method_continue_btn {
+    background: linear-gradient(180deg, #FFDE88 0%, #FFB905 100%);
+    border-radius: 200px;
+    position: absolute;
+    bottom: 20px;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    width: calc(100% - 40px);
+    color: #000000;
+    margin: 0 20px;
+    left: 0;
+    text-align: center;
+  }
+  .visa_main_container{
+    margin-top: 35px;
+  }

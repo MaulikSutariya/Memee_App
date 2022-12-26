@@ -1,0 +1,20 @@
+.New_Message_Page_Users_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+}
+.New_mess_to_user{
+    padding: 7px 15px;
+    border:1px solid rgba(164, 164, 164, 1);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.New_mess_to_user h5{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(164, 164, 164, 1);
+    font-weight: 400;
+}
+.usermessagetonewuser{
+    padding: 17px;
+}

@@ -1,0 +1,29 @@
+.New_Trending_Memes_Page {
+  height: 100vh;
+  background: var(--main_page_background_color);
+  overflow: auto;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+.absolutelikesharecmt {
+  position: absolute;
+  right: 15px;
+  bottom: 100px;
+  z-index: 50;
+}
+.absolutelikesharecmt .likesharecomment {
+  display: flex;
+  flex-direction: column;
+}
+.absolutelikesharecmt .likesharecomment .post_like {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  align-items: center;
+}
+.absolutelikesharecmt .likesharecomment .post_like h5 {
+  margin-top: 10px;
+}

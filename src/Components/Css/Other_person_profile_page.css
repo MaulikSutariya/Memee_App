@@ -1,0 +1,76 @@
+.Other_person_profile_page{
+    height: 100vh;
+    overflow: auto;
+    background: var( --main_page_background_color);
+}
+.other_profile_Arrow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.other_profile_Arrow h3{
+    font-size: 19px;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+}
+.other_profile_Arrow img{
+    height: 19px;
+    margin-right: 2%;
+}
+.followothermessopt{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#follo{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    font-weight: 600;
+    background: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+}
+#follo2{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    font-weight: 600;
+    background: white;
+}
+#mess{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    font-weight: 600;
+}
+.profile_1_other_user{
+    text-align: center;
+    margin-top: 40px;
+}
+.profile_1_other_user img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.profile_1_other_user h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.profile_1_other_user p{
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}

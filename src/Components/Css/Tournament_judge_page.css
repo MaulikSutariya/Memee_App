@@ -1,0 +1,89 @@
+.Tournament_judge_page {
+  height: 100vh;
+  background: var(--main_page_background_color);
+  overflow: auto;
+  padding-bottom: 85px;
+}
+.judge_baner {
+  text-align: center;
+  margin-top: 25px;
+}
+.Judge_history {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.judge_h h5 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+.daysmemeestatus {
+  background: var(--Button_theme);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.judgedays h3 {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 600;
+  color:var(  --A_M_h4_color);
+}
+.judgedays {
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+}
+.judgedays:nth-child(3) {
+  border: none;
+}
+.judgeRank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--tournamet_options_page_bg_color);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30.5px;
+  margin-top: 20px;
+  padding-right: 10px;
+  height: 50px;
+}
+.judgerank1 {
+    background: linear-gradient(180deg, #B461F4 0%, #671BA3 100%);
+    border-radius: 110px;
+    height: 50px;
+}
+.judgerank1 h3{
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight:700 ;
+    margin: 0;
+    width: 80px;
+    text-align: center;
+    padding-top: 14px;
+}
+.judgerank2 h3{
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-weight:700 ;
+    margin: 0;
+}
+.judgerank3{
+    background: rgba(255, 255, 255, 0.1);
+    height: 35px;
+    width: 35px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 50%;
+}

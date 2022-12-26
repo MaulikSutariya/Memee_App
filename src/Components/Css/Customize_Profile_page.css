@@ -1,0 +1,138 @@
+.Customize_Profile_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.Theme_P{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+.theme_Pack{
+    padding-left: 17px;
+    margin-top: 20px;
+}
+.Theme_P img{
+    margin: 0 10px;
+    height: 180px;
+    background: url('../images//customize_Profile_Page/TH_BG.png');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.theme_Pack h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.theme_P_B h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.Theme_P_b img{
+    margin: 0 10px;
+}
+.theme_P_B{
+    padding-left: 17px;
+    margin-top: 20px;
+}
+.Theme_P_b{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+
+.theme_P_Back h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.Theme_P_back img{
+    margin: 0 10px;
+    border-radius: 20px;
+    height: 160px;
+}
+.theme_P_Back{
+    padding-left: 17px;
+    margin-top: 20px;
+}
+.Theme_P_back{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+.Theme_ICONS{
+    background: rgba(150, 12, 60, 1);
+    border-radius: 20px;
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Theme_ICONS img{
+    height: 25.33px;
+}
+.Theme_ICONS img:nth-child(3){
+    height: 45.33px;
+}
+.ibtn{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border-style: none;
+    background: linear-gradient(180deg, #FF6399 0%, #960C3C 100%);
+    color: white;
+}
+.theme_P_B_icons h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.theme_P_B_icons{
+    padding: 0 17px;
+    margin-top: 20px;
+}
+
+.theme_P_Btn h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.theme_P_Btn{
+    padding: 0 17px;
+    margin-top: 20px;
+}
+
+.theme_P_font h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.theme_P_font{
+    padding: 0 17px;
+    margin-top: 20px;
+}
+.Theme_font{
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(74, 74, 74, 1);
+    height: 50px;
+    padding-top: 13px;
+    border-radius: 30px;
+}

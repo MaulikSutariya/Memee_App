@@ -1,0 +1,570 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  outline: none;
+  user-select: none;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+input{
+  color: white;
+  font-weight: 300;
+  user-select:all
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.error{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.error img{
+  height: 23rem;
+} 
+.error2 h1{
+  font-size: 18px;
+  font-weight: 600;
+}
+.error2 h2{
+  color: red;
+  font-size: 40px;
+}
+.error2 h1 span{
+  color: green;
+  font-size: 25px;
+}
+#Yellow{
+  color: orangered;
+}
+.sliderofapp{
+  pointer-events: none;
+}
+
+
+
+/* media css */
+
+
+@media screen and (max-width:10000px){
+  .memee{
+    display: none;
+}
+.sliderofapp{
+  display: none;
+}
+}
+
+
+
+@media screen and (max-width:1440px){
+  .memee{
+    display: none;
+}
+.sliderofapp{
+  display: none;
+}
+}
+
+@media screen and (max-width:1024px){
+  .memee{
+      display: none;
+  }
+  .sliderofapp{
+    display: none;
+  }
+  .error img{
+    height: 20rem;
+  } 
+  .error{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    /* border-style: solid; */
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .no_Conetent{
+    display: none;
+}
+.memee{
+  display: block;
+}
+.sliderofapp{
+  display: block;
+}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Georama&family=PT+Sans&family=Unkempt&family=Unna&display=swap');
+
+
+/* NAVBAR THEME */
+
+.Default_theme_Navbar_color{
+  --Navbar_theme:#292929;
+  --Navbar_Background_shadow:0px -10px 35px 5px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 205, 47, 1);
+  --Navbar_Currant_page_font_color:rgba(155, 155, 155, 1);
+  --Button_theme: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  --main_page_background_color:black;
+  --onbording_input_color: linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  --onbording_input_text_color:black;
+  --movesignupspan_color: rgba(255, 205, 47, 1);
+  --onbordingemailicon_color:black;
+  --following_h5_color:black;
+  --commentpage_C_D_1_color:rgba(32, 30, 35, 1);
+  --Comments_written_post_h5_color:rgba(255, 205, 47, 1);
+  --moreexplorelike_color:rgba(41, 41, 41, 1);
+  --Search_explore_input_color:rgba(32, 30, 35, 1);
+  --A_M_h4_color:black;
+  --Activity_message_background_color:rgba(32, 30, 35, 1);
+  --search_explore_seeallsearch_color:rgba(255, 205, 47, 1);
+  --dollar_coin_in_rank_color:#292929;
+  --dollar_coin_in_rank_box_shadow_color:0px 8px 10px rgb(0 0 0 / 20%);
+  --store_theme_bg-color:rgba(32, 30, 35, 1);
+  --tournamet_options_page_bg_color:rgba(32, 30, 35, 1);
+  --profile_badge_bg-color:rgba(41, 41, 41, 1);
+  --profile_following_back_color:rgba(255, 255, 255, 0.2);
+  --profile_background_image:url('../src/Components/images/Profile_page/Profile_bg.png');
+  --E-1_edit_profile_color:black;
+  --profile-notification_checkbox:rgba(255, 205, 47, 1);
+  --support_pending_color:rgba(254, 187, 89, 1);
+  --support_page_2_drp_dwn_color:linear-gradient(0deg, #201e23, #201e23),linear-gradient(0deg, #454545, #454545);
+  --p_1_setting_svg:rgba(255, 205, 47, 1);
+  --addcoin_div_color:linear-gradient(180deg, #73FF66 16.25%, #19850F 100%);
+  --commentpage_input_background-color:#201E23;
+  --commentpage_input_text_color:white;
+  --search_explore_svg_color:white;
+  --expmore_cm_sh_li_color:rgba(255, 255, 255, 0.8);
+  --explikesh_cm_font-color:black;
+  --Nbackhash_color:white;
+  --nbackhash_bg_color:black;
+  --nbacksvg_color:white;
+  --cmt_like_svgcolor:gray;
+  --expmorehashh6_color:black;
+  --enter_tournamet_button-color:linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  --enter_tournamet_button_font-color:black;
+  --new_mess_h6_color:white;
+  --post_tag_details_P_color:rgba(116, 187, 243, 1);
+  --explore_tag_items_border_color:gray;
+  --searchexplore_placeholder_color:white;
+  --explore_tag_h2_color: rgba(186, 186, 186, 1);
+  --comments_like_share_h6_color:rgba(193, 193, 193, 1);
+  --comment-cd_1_color:rgba(193, 193, 193, 1);
+  --explore_user_details_hash_color:rgba(116, 187, 243, 1);
+  --tourstore_judge_opt_color:rgba(155, 155, 155, 1);
+  --post_am_h4_color:rgba(155, 155, 155, 1);
+  --p_setting-1_2-color: rgba(154, 154, 154, 1);
+  --p_settings_svg_bg_color:rgba(32, 30, 35, 1);
+  --eee_input_border_color:gray;
+  --attach_img_proof_color:rgba(204, 204, 204, 1);
+  --movesignupcolor_paragraph:rgba(136, 136, 136, 1);
+  --sign_in_text_p_color:rgba(186, 186, 186, 1);
+  --sign-in_page_input_placeholder:gray;
+  --sign-in_page_input_placeholder2:gray;
+  --edit_icon-svg_color:black;
+  --chat_inbox_user_mess_color:rgba(122, 122, 122, 1);
+  --am2_h4-color:rgba(122, 122, 122, 1);
+  --commentpage_input_background:rgba(255, 255, 255, 0.2);
+}
+
+
+
+/* space theme */
+.Space_Theme_Navbar_color{
+  --Navbar_theme:linear-gradient(180deg, #5D33AD 0%, #171A59 100%);
+  --Navbar_Background_shadow: 0px -8.18667px 28.6533px 4.09334px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:rgba(255, 255, 255, 1);
+  --Button_theme:linear-gradient(180deg, #5D33AD 0%, #171A59 100%);
+  --main_page_background_color:  rgba(6, 6, 40, 1);
+  --onbording_input_color:linear-gradient(180deg, #5D33AD 0%, #171A59 100%), linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  --onbording_input_text_color:rgba(255, 255, 255, 1);
+  --movesignupspan_color: rgba(163, 120, 246, 1);
+  --onbordingemailicon_color:white;
+  --following_h5_color:white;
+  --commentpage_C_D_1_color:rgba(32, 31, 56, 1);
+  --Comments_written_post_h5_color:rgba(163, 120, 246, 1);
+  --moreexplorelike_color:rgba(32, 31, 56, 1);
+  --Search_explore_input_color:rgba(32, 31, 56, 1);
+  --A_M_h4_color:white;
+  --Activity_message_background_color:rgba(32, 31, 56, 1);
+  --search_explore_seeallsearch_color:rgba(55, 141, 214, 1);
+  --dollar_coin_in_rank_color:rgba(32, 31, 56, 1);
+  --dollar_coin_in_rank_box_shadow_color: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  --store_theme_bg-color:rgba(32, 31, 56, 1);
+  --tournamet_options_page_bg_color:rgba(32, 31, 56, 1);
+  --profile_badge_bg-color:linear-gradient(180deg, #5D33AD 0%, #111752 100%);
+  --profile_following_back_color: linear-gradient(180deg, rgba(255, 255, 255, 0.082) 0%, rgba(255, 255, 255, 0.2) 100%);
+  --profile_background_image:url('../src/Components/images/all_theme/space_theme/space_theme_profile_bg2.png');
+  --E-1_edit_profile_color:  #171A59;
+  --profile-notification_checkbox:rgba(183, 129, 249, 1);
+  --support_pending_color:rgba(163, 120, 246, 1);
+  --support_page_2_drp_dwn_color:rgba(32, 31, 56, 1);
+  --p_1_setting_svg:#B781F9;
+  --addcoin_div_color:linear-gradient(180deg, #73FF66 16.25%, #19850F 100%);
+  --commentpage_input_background-color:#201E23;
+  --commentpage_input_text_color:white;
+  --search_explore_svg_color:white;
+  --expmore_cm_sh_li_color:rgba(255, 255, 255, 0.8);
+  --explikesh_cm_font-color:black;
+  --Nbackhash_color:white;
+  --nbackhash_bg_color:black;
+  --nbacksvg_color:white;
+  --cmt_like_svgcolor:gray;
+  --expmorehashh6_color:black;
+  --enter_tournamet_button-color:linear-gradient(180deg, #5D33AD 0%, #171A59 100%);
+  --enter_tournamet_button_font-color:white;
+  --new_mess_h6_color:white;
+  --post_tag_details_P_color:rgba(116, 187, 243, 1);
+  --explore_tag_items_border_color:gray;
+  --searchexplore_placeholder_color:white;
+  --explore_tag_h2_color: rgba(186, 186, 186, 1);
+  --comments_like_share_h6_color:rgba(193, 193, 193, 1);
+  --comment-cd_1_color:rgba(193, 193, 193, 1);
+  --explore_user_details_hash_color:rgba(116, 187, 243, 1);
+  --tourstore_judge_opt_color:rgba(155, 155, 155, 1);
+  --post_am_h4_color:rgba(155, 155, 155, 1);
+  --p_setting-1_2-color: rgba(154, 154, 154, 1);
+  --p_settings_svg_bg_color:rgba(32, 30, 35, 1);
+  --eee_input_border_color:gray;
+  --attach_img_proof_color:rgba(204, 204, 204, 1);
+  --movesignupcolor_paragraph:rgba(136, 136, 136, 1);
+  --sign_in_text_p_color:rgba(186, 186, 186, 1);
+  --sign-in_page_input_placeholder:gray;
+  --sign-in_page_input_placeholder2:gray;
+  --edit_icon-svg_color:white;
+  --chat_inbox_user_mess_color:rgba(122, 122, 122, 1);
+  --am2_h4-color:rgba(122, 122, 122, 1);
+  --commentpage_input_background:rgba(179, 170, 170, 0.295);
+}
+
+/* theme 1 */
+
+.Theme_1_colors{
+  --Navbar_theme:#3C0C52;
+  --Navbar_Background_shadow: 0px -10px 35px 5px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:rgba(255, 255, 255, 1);
+  --main_page_background_color:   rgba(34, 0, 50, 1);
+  --Button_theme:linear-gradient(180deg, #BE31FF 0%, #8900C9 100%);
+  --tournamet_options_page_bg_color: #320356;
+  --addcoin_div_color:linear-gradient(180deg, #BE31FF 0%, #8900C9 100%);
+  --A_M_h4_color:white;
+  --commentpage_C_D_1_color:#320356;
+  --Comments_written_post_h5_color:rgba(137, 0, 201, 1);
+  --commentpage_input_background-color:white;
+  --commentpage_input_text_color:black;
+  --onbording_input_color:linear-gradient(180deg, #BE31FF 0%, #8900C9 100%);
+  --onbording_input_text_color:rgba(255, 255, 255, 1);
+  --onbordingemailicon_color:white;
+  --movesignupspan_color: white;
+  --following_h5_color:white;
+  --Search_explore_input_color:white;
+  --search_explore_svg_color:rgba(42, 0, 62, 1);
+  --expmore_cm_sh_li_color:linear-gradient(180deg, #BE31FF 0%, #8900C9 100%);
+  --explikesh_cm_font-color:white;
+  --Nbackhash_color:linear-gradient(180deg, #BE31FF 0%, #8900C9 100%);
+  --nbackhash_bg_color:rgba(137, 0, 201, 1);
+  --nbacksvg_color:white;
+  --cmt_like_svgcolor:white;
+  --expmorehashh6_color:white;
+  --store_theme_bg-color:rgba(50, 3, 86, 1);
+  --Activity_message_background_color:rgba(50, 3, 86, 1);
+  --profile_background_image:url('../src/Components/images/all_theme/theme_1/theme_1_profile_bg.png');
+  --enter_tournamet_button-color:linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+  --enter_tournamet_button_font-color:black;
+  --dollar_coin_in_rank_color:rgba(50, 3, 86, 1);
+  --dollar_coin_in_rank_box_shadow_color:  0px 8px 10px rgba(0, 0, 0, 0.2);
+  --profile_badge_bg-color:rgba(50, 3, 86, 1);
+  --p_1_setting_svg:rgba(255, 205, 47, 1);
+  --E-1_edit_profile_color: rgba(138, 1, 202, 1);
+  --support_pending_color:rgba(255, 205, 47, 1);
+  --support_page_2_drp_dwn_color:#320356;
+  --new_mess_h6_color:black;
+  --post_tag_details_P_color:rgba(116, 187, 243, 1);
+  --explore_tag_items_border_color:gray;
+  --searchexplore_placeholder_color:black;
+  --explore_tag_h2_color: rgba(186, 186, 186, 1);
+  --comments_like_share_h6_color:rgba(193, 193, 193, 1);
+  --comment-cd_1_color:rgba(193, 193, 193, 1);
+  --explore_user_details_hash_color:rgba(116, 187, 243, 1);
+  --tourstore_judge_opt_color:rgba(155, 155, 155, 1);
+  --post_am_h4_color:rgba(155, 155, 155, 1);
+  --p_setting-1_2-color: rgba(154, 154, 154, 1);
+  --p_settings_svg_bg_color:rgba(32, 30, 35, 1);
+  --eee_input_border_color:gray;
+  --attach_img_proof_color:rgba(204, 204, 204, 1);
+  --movesignupcolor_paragraph:rgba(136, 136, 136, 1);
+  --sign_in_text_p_color:rgba(186, 186, 186, 1);
+  --sign-in_page_input_placeholder:gray;
+  --sign-in_page_input_placeholder2:gray;
+  --edit_icon-svg_color:white;
+  --chat_inbox_user_mess_color:rgba(122, 122, 122, 1);
+  --am2_h4-color:rgba(122, 122, 122, 1);
+  --commentpage_input_background:rgba(179, 170, 170, 0.295);
+}
+
+
+/* Medium gray theme */
+
+.Medium_Gray_colors{
+  --Navbar_theme:rgba(77, 94, 95, 1);
+  --Navbar_Background_shadow: 0px -10px 35px 5px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:rgba(255, 255, 255, 1);
+  --main_page_background_color: rgba(129, 143, 144, 1);
+  --Button_theme: rgba(255, 226, 153, 1);
+  --addcoin_div_color:rgba(77, 94, 95, 1);
+  --tournamet_options_page_bg_color: rgba(106, 122, 123, 1);
+  --following_h5_color:black;
+  --post_tag_details_P_color:rgba(251, 207, 94, 1);
+  --commentpage_C_D_1_color:rgba(106, 122, 123, 1);
+  --Comments_written_post_h5_color:rgba(129, 143, 144, 1);
+  --commentpage_input_background-color:white;
+  --commentpage_input_text_color:black;
+  --Search_explore_input_color:rgba(106, 122, 123, 1);
+  --search_explore_svg_color:white;
+  --expmore_cm_sh_li_color:rgba(77, 94, 95, 1);
+  --explikesh_cm_font-color:white;
+  --explore_tag_items_border_color:white;
+  --searchexplore_placeholder_color:white;
+  --explore_tag_h2_color:white;
+  --comments_like_share_h6_color:white;
+  --comment-cd_1_color:white;
+  --cmt_like_svgcolor:white;
+  --Nbackhash_color:rgba(77, 94, 95, 1);
+  --nbackhash_bg_color:rgba(77, 94, 95, 1);
+  --nbacksvg_color:white;
+  --expmorehashh6_color:white;
+  --explore_user_details_hash_color:white;
+  --moreexplorelike_color:rgba(106, 122, 123, 1);
+  --tourstore_judge_opt_color:white;
+  --store_theme_bg-color:rgba(106, 122, 123, 1);
+  --enter_tournamet_button-color:rgba(255, 226, 153, 1);
+  --enter_tournamet_button_font-color:black;
+  --dollar_coin_in_rank_color:rgba(106, 122, 123, 1);
+  --dollar_coin_in_rank_box_shadow_color:  0px 8px 10px rgba(0, 0, 0, 0.2);
+  --profile_background_image:url('../src/Components/images/all_theme/medium_gray_theme/medium_gray_theme_profile_bg.png');
+  --profile_badge_bg-color:rgba(106, 122, 123, 1);
+  --post_am_h4_color:white;
+  --p_1_setting_svg:rgba(255, 205, 47, 1);
+  --p_setting-1_2-color: white;
+  --p_settings_svg_bg_color:rgba(106, 122, 123, 1);
+  --E-1_edit_profile_color: rgba(106, 122, 123, 1);
+  --eee_input_border_color:white;
+  --support_pending_color:rgba(255, 205, 47, 1);
+  --support_page_2_drp_dwn_color: rgba(106, 122, 123, 1);
+  --attach_img_proof_color:white;
+  --onbording_input_color:rgba(77, 94, 95, 1);
+  --onbording_input_text_color:rgba(255, 255, 255, 1);
+  --onbordingemailicon_color:white;
+  --movesignupspan_color: black;
+  --movesignupcolor_paragraph:rgba(255, 255, 255, 1);
+  --sign_in_text_p_color:white;
+  --sign-in_page_input_placeholder:white;
+  --sign-in_page_input_placeholder2:rgba(255, 255, 255, 0.747);
+  --Activity_message_background_color:rgba(106, 122, 123, 1);
+  --edit_icon-svg_color:black;
+  --chat_inbox_user_mess_color:white;
+  --new_mess_h6_color:white;
+  --am2_h4-color:white;
+  --commentpage_input_background:rgba(106, 122, 123, 1);
+}
+
+
+/* theme 2  */
+
+.Theme_2_colors{
+  --Navbar_theme:rgba(90, 30, 37, 1);
+  --Navbar_Background_shadow: 0px -10px 35px 5px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:rgba(255, 255, 255, 1);
+  --main_page_background_color: rgba(49, 3, 9, 1);
+  --Button_theme: linear-gradient(180deg, #F23F58 0%, #D5233B 100%);
+  --addcoin_div_color:linear-gradient(180deg, #F23F58 0%, #D5233B 100%);
+  --tournamet_options_page_bg_color: rgba(65, 25, 30, 1);
+  --tourstore_judge_opt_color:gray;
+  --following_h5_color:white;
+  --post_tag_details_P_color:rgba(235, 56, 81, 1);
+  --comment-cd_1_color:white;
+  --commentpage_C_D_1_color:rgba(65, 25, 30, 1);
+  --comments_like_share_h6_color:white;
+  --Comments_written_post_h5_color:rgba(8, 186, 143, 1);
+  --commentpage_input_background-color:white;
+  --commentpage_input_text_color:black;
+  --Search_explore_input_color:white;
+  --search_explore_svg_color:rgba(42, 0, 62, 1);
+  --explore_tag_h2_color:white;
+  --explore_tag_items_border_color:white;
+  --expmore_cm_sh_li_color:linear-gradient(180deg, #F23F58 0%, #D5233B 100%);
+  --cmt_like_svgcolor:white;
+  --explikesh_cm_font-color:white;
+  --Nbackhash_color:rgba(65, 25, 30, 1);
+  --nbackhash_bg_color:rgba(65, 25, 30, 1);
+  --nbacksvg_color:white;
+  --expmorehashh6_color:white;
+  --explore_user_details_hash_color:rgba(30, 218, 173, 1);
+  --A_M_h4_color:white;
+  --enter_tournamet_button-color:rgba(235, 56, 81, 1);
+  --enter_tournamet_button_font-color:white;
+  --dollar_coin_in_rank_color:rgba(65, 25, 30, 1);
+  --dollar_coin_in_rank_box_shadow_color:  0px 8px 10px rgba(0, 0, 0, 0.2);
+  --store_theme_bg-color:rgba(65, 25, 30, 1);
+  --profile_background_image:url('../src/Components/images/all_theme/theme_2/theme_2_profile_bg.png');
+  --profile_badge_bg-color:rgba(235, 56, 81, 1);
+  --Activity_message_background_color:rgba(65, 25, 30, 1);
+  --onbording_input_color:rgba(235, 56, 81, 1);
+  --onbording_input_text_color:rgba(255, 255, 255, 1);
+  --onbordingemailicon_color:white;
+  --movesignupspan_color: rgba(235, 56, 81, 1);
+  --movesignupcolor_paragraph:rgba(136, 136, 136, 1);
+  --sign_in_text_p_color:white;
+  --sign-in_page_input_placeholder:gray;
+  --sign-in_page_input_placeholder2:gray;
+  --edit_icon-svg_color:white;
+  --chat_inbox_user_mess_color:rgba(122, 122, 122, 1);
+  --am2_h4-color:rgba(122, 122, 122, 1);
+  --p_1_setting_svg:rgba(255, 205, 47, 1);
+  --p_settings_svg_bg_color:rgba(235, 56, 81, 1);
+  --p_setting-1_2-color: white;
+  --E-1_edit_profile_color: rgba(235, 56, 81, 1);
+  --support_pending_color:rgba(255, 205, 47, 1);
+  --searchexplore_placeholder_color:white;
+  --support_page_2_drp_dwn_color:rgba(122, 122, 122, 1);
+  --attach_img_proof_color:white;
+  --commentpage_input_background:rgba(235, 56, 80, 0.479);
+}
+
+/* memee theme */
+
+.Memee_Theme_Navbar_color{
+  --Navbar_theme:linear-gradient(180deg, #FFD524 0%, #ECB602 100%);
+  --Navbar_Background_shadow:0px -8.18667px 28.6533px 4.09333px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color: rgba(63, 22, 87, 1);
+  --Navbar_Currant_page_font_color:#764785;
+  --Button_theme: linear-gradient(180deg, #FFD524 0%, #ECB602 100%);
+  --main_page_background_color:rgb(255, 230, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Unicorn_Theme_Navbar_color{
+  --Navbar_theme:linear-gradient(180deg, #C83A6B 0%, #8D0E3A 100%);
+  --Navbar_Background_shadow: 0px -8.18667px 28.6533px 4.09333px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 199, 218, 1);
+  --Navbar_Currant_page_font_color:#EE6293;
+  --Button_theme:linear-gradient(180deg, #C83A6B 0%, #8D0E3A 100%);
+  --main_page_background_color:#EE6293;
+  --tournamet_options_page_bg_color:rgba(255, 199, 218, 1);
+  --following_h5_color:white;
+  --addcoin_div_color:linear-gradient(180deg, #C83A6B 0%, #8D0E3A 100%);
+  --commentpage_C_D_1_color:rgba(255, 199, 218, 1);
+  --commentpage_input_background:rgba(255, 199, 218, 1);
+  --Comments_written_post_h5_color:#EE6293;
+  --commentpage_input_text_color:black;
+  --Search_explore_input_color:rgba(255, 199, 218, 1);
+  --explore_tag_items_border_color:white;
+  --explore_tag_h2_color:white;
+  --expmore_cm_sh_li_color:rgba(255, 199, 218, 1);
+  --expmorehashh6_color:black;
+  --Nbackhash_color:rgba(255, 199, 218, 1);
+  --nbackhash_bg_color:rgba(255, 199, 218, 1);
+  --A_M_h4_color:white;
+  --enter_tournamet_button-color:linear-gradient(180deg, #C83A6B 0%, #8D0E3A 100%);
+ --enter_tournamet_button_font-color:white;
+ --dollar_coin_in_rank_color:rgba(255, 199, 218, 1);
+ --Activity_message_background_color:rgba(255, 199, 218, 1);
+ --store_theme_bg-color:linear-gradient(180deg, #C83A6B 0%, #8D0E3A 100%);
+ --profile_background_image:url('../src/Components/images/all_theme/theme_2/theme_2_profile_bg.png');
+}
+
+.Save_Earth_Day_Theme_Navbar_color{
+  --Navbar_theme: linear-gradient(180deg, #78AC6B 0%, #49843A 100%);
+  --Navbar_Background_shadow:0px -8.18667px 28.6533px 4.09333px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:#B1CCAA;
+  --Button_theme: linear-gradient(180deg, #78AC6B 0%, #49843A 100%);
+  --main_page_background_color:#55794d9a;
+  --tournamet_options_page_bg_color:#B1CCAA;
+ --following_h5_color:white;
+ --commentpage_input_background:#B1CCAA;
+ --commentpage_input_text_color:black;
+ --commentpage_C_D_1_color:#B1CCAA;
+ --Comments_written_post_h5_color: #49843A;
+ --Search_explore_input_color:#B1CCAA;
+ --explore_tag_items_border_color:white;
+ --explore_tag_h2_color:white;
+ --expmore_cm_sh_li_color:#B1CCAA;
+ --Nbackhash_color:#B1CCAA;
+ --nbackhash_bg_color:#B1CCAA;
+ --enter_tournamet_button-color:linear-gradient(180deg, #78AC6B 0%, #49843A 100%);
+ --enter_tournamet_button_font-color:white;
+ --dollar_coin_in_rank_color:#B1CCAA;
+ --A_M_h4_color:white;
+ --store_theme_bg-color: linear-gradient(180deg, #78AC6B 0%, #49843A 100%);
+ --addcoin_div_color: linear-gradient(180deg, #78AC6B 0%, #49843A 100%);
+ --profile_background_image:url('../src/Components/images/all_theme/theme_2/theme_2_profile_bg.png');
+ --Activity_message_background_color:#B1CCAA;
+}
+.New_Year_Theme_Navbar_color{
+  --Navbar_theme:#413781;
+  --Navbar_Background_shadow:0px -10px 35px 5px rgba(0, 0, 0, 0.2);
+  --Navbar_font_color:rgba(255, 255, 255, 1);
+  --Navbar_Currant_page_font_color:#B1CCAA;
+  --Button_theme:#413781;
+  --main_page_background_color:#1e1a3a6e;
+  --tournamet_options_page_bg_color:#41378170;
+  --following_h5_color:white;
+  --addcoin_div_color:#413781;
+  --profile_background_image:url('../src/Components/images/all_theme/theme_2/theme_2_profile_bg.png');
+  --A_M_h4_color:white;
+  --store_theme_bg-color:#413781;
+  --enter_tournamet_button-color:#413781;
+  --enter_tournamet_button_font-color:white;
+  --dollar_coin_in_rank_color:#413781;
+  --p_1_setting_svg:#413781;
+  --p_settings_svg_bg_color:#4137814d;
+  --commentpage_input_text_color:#4137814d;
+  --Search_explore_input_color:#4137814d;
+  --explore_tag_items_border_color:white;
+  --explore_tag_h2_color:white;
+  --expmore_cm_sh_li_color:#413781;
+  --explikesh_cm_font-color:white;
+  --cmt_like_svgcolor:white;
+  --expmorehashh6_color:white;
+  --Nbackhash_color:#413781;
+  --nbackhash_bg_color:#413781;
+  --nbacksvg_color:white;
+}
+
+
+

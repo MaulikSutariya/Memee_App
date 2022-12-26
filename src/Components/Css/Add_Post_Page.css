@@ -1,0 +1,81 @@
+.add_post_page{
+    height: 100vh;
+    background-color: var(--main_page_background_color);
+    overflow: auto;
+}
+.POstOfuserupload{
+    border: 1px dashed white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.219);
+}
+.POstOfuserupload img{
+    height: 145px;
+    width: 146px;
+    background-size: cover;
+    border-radius: 18px;
+}
+.POst_1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.locationinput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0 25px;
+}
+.locationinput input{
+    height: 35px;
+    background-color:var(--main_page_background_color) ;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.locationinput input::placeholder{
+    color: darkgray;
+    font-size: 12px;
+}
+.locationinput label{
+    color: white;
+}
+
+.post__yellow_btn {
+    background: var( --Button_theme);
+    border-radius: 30px;
+     text-align: center;
+     padding: 6px 0;
+     color: var(--A_M_h4_color);
+     height: 35px;
+     font-weight: 600;
+     width: 100%;
+   }
+   .postbutton{
+    padding: 0 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+   }
+
+
+   /* FILE UPLOAD */
+
+   
+#fileupload2 {
+    position: absolute;
+    right: 113px;
+    top: 140px;
+    height: 150px;
+    width: 130px;
+    border-radius: 25px;
+    z-index: 60;
+    opacity: 0;
+
+}

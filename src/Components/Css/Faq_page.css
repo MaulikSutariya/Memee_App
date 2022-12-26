@@ -1,0 +1,59 @@
+.faqArrow {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.faqArrow h3 {
+  margin: 0 20px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.faqArrow img {
+  height: 17px;
+}
+.howcanhelp h1 {
+  color: white;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.allfaqs {
+  border: 1px solid rgba(69, 69, 69, 1);
+  padding: 17px;
+  border-radius: 17px;
+  margin-top: 30px;
+}
+.allfaqs2 {
+    background: linear-gradient(0deg, #201e23, #201e23),
+    linear-gradient(0deg, #454545, #454545);
+    border: 1px solid rgba(69, 69, 69, 1);
+    padding: 17px;
+    border-radius: 17px;
+    margin-top: 30px;
+}
+.buyCoins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.buyCoins h1 {
+  font-size: 16px;
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+#buycoinright {
+  height: 14px;
+}
+#buycoinbottom {
+  height: 9px;
+}
+.faqdetails {
+  color: gray;
+  font-size: 13px;
+  margin-top: 10px;
+}

@@ -1,0 +1,346 @@
+
+
+.mainclassofapp{
+    height: 100vh;
+}
+.Home_page{
+    background: var(--main_page_background_color);
+    height: 100vh;
+    overflow: scroll;
+    padding-bottom: 87px;
+}
+.home_page_Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.Home_Notification img{
+    height: 30px;
+    margin-bottom: 5px;
+}
+.notiadd{
+    display: flex;
+    justify-content: space-between;
+}
+.add_coin{
+    display: flex;
+    align-items: center;
+    background: var(--addcoin_div_color);
+    padding: 0px 7px;
+    border-radius: 20px;
+    justify-content: space-around;
+    width: 85px;
+    height: 35px;
+    border-style: none;
+}
+.add_coin img{
+    height: 16px;
+}
+#storyUserImagepic{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.add_coin h3{
+    font-size: 14px;
+    color: white;
+    margin: 0 2px;
+}
+.user_profile_image img{
+    height: 38px;
+    width: 39px;
+    border-radius: 50%;
+}
+#choosestoryimage{
+    opacity: 0;
+    position: absolute;
+    height: 128.78px;
+    width: 101.33px;
+    left: 0px;
+    top: 1px;
+}
+.user_name h2{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+.user_name{
+    padding-right: 12px;
+    margin-left: 10px;
+}
+.ppicndname{
+    display: flex;
+    align-items: center;
+}
+.user_name h2 span{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.home_page_Section2{
+    background: var(--tournamet_options_page_bg_color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    height: 42px;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-radius: 24px;
+}
+.following2 h5{
+    margin: 0;
+    color: var(  --tourstore_judge_opt_color);
+    font-size: 13px;
+    font-weight: 400;
+}
+.following h5{
+    margin: 0;
+    color: var(  --following_h5_color);
+    font-size: 13px;
+    font-weight: 500;
+}
+.following2{
+    padding: 12px 0;
+    text-align: center; 
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    
+}
+.following{
+    padding: 12px 0;
+    text-align: center;
+   background:var(--Button_theme);
+   /* background:  linear-gradient(180deg, #FFE299 0%, #F6B202 100%); */
+   border-style: none;
+    height: 100%;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.add_story{
+    margin-top: 23px;
+    padding-left: 17px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    background-size: cover;
+}
+.add_story::-webkit-scrollbar{
+    display: none;
+}
+.Home_page::-webkit-scrollbar{
+    display: none;
+}
+.Add_your_story{
+    background: rgba(32, 30, 35, 1);
+    border-radius: 10px;
+    text-align: center;
+    width:100px;
+    height: 100%;
+    margin-right: 8px;
+    position: relative;
+}
+.Add_your_story h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.Add_your_story h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    margin-top: 15px
+}
+.Add_your_story img{
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Add_your_story2{
+    border-radius: 10px;
+    text-align: center;
+    height:130px;
+    height: 100%;
+    width: 100px;
+    margin-right: 5px;
+    background: url('../images/Home_page/Story_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Addstory h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 8px;
+    margin-top: 15px;
+    text-align: center;
+}
+.Addstory img{
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-right: 35px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.Addstory{
+    background: url('../images/Home_page/Story_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 129px;
+    border-radius: 7px;
+}
+
+.Home_page_post{
+    margin-top: 7.5%;
+}
+.post_user_details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#postuserprofilepic{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.User_pofile_post_Details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 17px;
+}
+#threeeDot_post{
+    height: 17px;
+}
+.post_username_details{
+    margin-left: 3%;
+}
+
+.post_username_details h5{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.post_username_details h6{
+    margin: 0;
+    color: rgb(231, 227, 227);
+    font-size: 11px;
+    font-weight: 300;
+}
+.Post_tag_details{
+    padding: 0 17px;
+    margin-top: 4%;
+}
+.Post_tag_details h6{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 350;
+}
+.Post_tag_details p{
+    margin: 0;
+    margin-top: 0.5%;
+    font-size: 12px;
+    color: var(  --post_tag_details_P_color);
+}
+.POsed_media_By_user img{
+    width: 100%;
+    margin-top: 3%;
+}
+.likesharecomment{
+    /* background-color: white; */
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+}
+.post_like h5{
+    margin: 0;
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    font-weight: 300;
+}
+.post_like{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#home_post_hr{
+    margin: 0;
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* display: none; */
+}
+
+/* share slider */
+.ShareSlider{
+    background: #211f245d;
+    border-radius: 30px 30px 0px 0px;
+    position: fixed;
+    bottom: 0;
+    height: 330px;
+    padding: 15px;
+    overflow: hidden;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+}
+
+.ShareSliderClose {
+    position: fixed;
+    height: 0;
+    padding: 24px;
+  }
+
+  .ShareDivline{
+    height: 4px;
+    width: 50px;
+    background-color: #EAEAEA;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+  }
+  .shareiconsofsocial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .shareiconsofsocial2{
+   display: none;
+  }
+  .s_icon{
+    margin: 20px;
+  }
+  .s_icon2{
+  display: none;
+  }
+
+
+/* navbar */
+
+
+
+
+
+

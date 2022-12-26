@@ -1,0 +1,149 @@
+.Explore_More_page {
+  height: 100vh;
+  background: var(--main_page_background_color);
+  overflow: auto;
+}
+.N_Nature {
+  background: url("../images/Explore_more_page/N_4.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+}
+
+.N_back {
+  background: linear-gradient(
+    179.93deg,
+    rgba(0, 0, 0, 0.7) 0.06%,
+    rgba(0, 0, 0, 0) 81.28%
+  );
+  height: 100%;
+  display: flex;
+}
+.N_back_1 {
+  background-color: var(--nbackhash_bg_color);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 3px 1px;
+  padding-left: 9px;
+  margin-top: 38px;
+  margin-left: 15px;
+  /* opacity: 0.3;
+backdrop-filter: blur(2px); */
+}
+.N_back_1 svg {
+  /* height: 28px; */
+  fill: var(   --nbacksvg_color);
+}
+.N_Back_hash {
+  background: var(  --Nbackhash_color);
+  height: 35px;
+  width: 95px;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 85px;
+  border-style: none;
+}
+.N_Back_hash h6 {
+  margin: 0;
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 15px;
+  color:var(--expmorehashh6_color)
+}
+
+.explorepagelike {
+  background:var( --expmore_cm_sh_li_color);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(5px);
+  width: 80%;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  position: relative;
+  top: -30px;
+
+}
+
+.explore_like h5 {
+  margin: 0;
+  font-size: 15px;
+  margin-left: 5px;
+  color: var(--explikesh_cm_font-color);
+  font-weight: 500;
+}
+.explore_like {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.explore_like svg{
+  fill:var(--cmt_like_svgcolor);
+}
+.ExploreLikeCmtShr{
+    display: flex;
+    justify-content: center;
+}
+.Explr_User_details_post{
+    display: flex;
+    width: 100%;
+    /* margin-top: 5px; */
+    padding: 0 17px;
+}
+.Explr_User_details_post img{
+    height: 100%;
+    margin-right: 10px;
+}
+.Explr_User_details_post_2 h5{
+    font-size: 16px;
+    margin: 0;
+    color:  rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
+.Explr_User_details_post_2 h5 span{
+    font-size: 16px;
+    margin: 0;
+    color:  rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+.Explr_User_details_post_2 h6{
+    font-size: 13px;
+    margin: 0;
+    color:  var(--explore_user_details_hash_color);
+    margin-top: 3px;
+    font-weight: 300;
+}
+.MoreExplorelike{
+    background:var(--moreexplorelike_color);
+    margin-top: 25px;
+    padding:20px  17px;
+}
+.MoreExplorelike h4{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.likemore_Explore{
+    padding: 20px 0;
+    display: flex;
+    
+}
+.likemore_Explore img{
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+
+

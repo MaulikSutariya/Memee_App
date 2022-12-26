@@ -1,0 +1,91 @@
+.Edit_Profile_Page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 10px;
+}
+#E_1{
+    height: 154px;
+    width:154px ;
+    border-radius: 50%;
+    border:3px solid white
+}
+.E{
+    text-align: center;
+    margin-top: 50px;
+}
+#E_1edit{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background:var( --E-1_edit_profile_color);
+    border: 3.5px solid white;
+    top: -45px;
+    border-radius: 50%;
+   left: 214px;
+    padding-top: 2px;
+    z-index: 50;
+}
+#fileupload{
+    position: absolute;
+    right: 113px;
+    top:218px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    z-index: 60;
+    opacity: 0;
+}
+
+.E_1 h1{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -17px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.E_1 h2{
+    margin: 0;
+    color: rgba(197, 197, 197, 1);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.Ee{
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.EEE h5{
+    color: rgba(197, 197, 197, 1);
+    font-size: 16px;
+} 
+.EEE {
+    margin-top: 30px;
+}
+.EEE input{
+    width: 100%;
+    background: var(--main_page_background_color);
+    border: 1px solid;
+    border-color: var(  --eee_input_border_color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 15px;
+    caret-color: white;
+    color: white;
+    margin-top: 5px;
+}
+.EEe{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.EEe button{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+   background:var( --Button_theme);
+   color: var( --A_M_h4_color);
+    font-weight: 600;
+}

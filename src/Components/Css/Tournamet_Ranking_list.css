@@ -1,0 +1,68 @@
+.Tournamet_Ranking_list{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 17px;
+}
+
+.ranking_background {
+  /* background: var(--main_page_background_color); */
+   padding: 15px 10px;
+   margin-top: 10px;
+  }
+  .rankings_coin {
+    position: relative;
+    margin-top: 10px;
+  }
+  .triangle_blue {
+    position: relative;
+    z-index: 20;
+  }
+  .left_rank {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 0;
+    z-index: 1;
+  }
+  .right_rank {
+    position: absolute;
+    top: 7px;
+    left: 0;
+  }
+  .rank_no {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 14px;
+    z-index: 20;
+    top: 11px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+  }
+  .dollar_coin {
+    position: absolute;
+    top: 11px;
+    background: var( --dollar_coin_in_rank_color);
+    box-shadow:var(  --dollar_coin_in_rank_box_shadow_color);
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 10.5px 0;
+    left: 6px;
+  }
+  .rupees {
+    color: white;
+  }
+  .center_dollar_coin {
+    margin-right: 2px;
+  }
+  .ranking_back {
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }

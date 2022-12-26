@@ -1,0 +1,69 @@
+.Judge_Memee_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+}
+.j_M_head{
+    padding: 17px;
+    padding-top: 20px;
+}
+.judegememee{
+    border: 1px solid #FFFFFF;
+border-radius: 20px;
+width: 120px;
+height: 35px;
+}
+.judegememee h3 span{
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+.judegememee h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(125, 125, 125, 1);
+    margin-top: 6px;
+}
+.judgepsts{
+    margin-top: 30px;
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.judge_Post_1{
+    text-align: -webkit-center;
+    margin: 5px;
+}
+#jdpost{
+    height: 370px;
+}
+.likedislikejudge{
+    background: rgba(255, 255, 255, 0.95);
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.likejudge:nth-child(1){
+    width: 100%;
+    border-style: solid;
+    border-width: 1.5px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-top: 9px;
+}
+.likejudge:nth-child(2){
+    width: 100%;
+    padding-top: 9px;
+}
+.likedislikejudge{
+    position: relative;
+    top: -20px;
+}

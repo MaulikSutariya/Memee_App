@@ -1,0 +1,87 @@
+.Payment_Method_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 17px;
+}
+
+.payment_wrapper {
+    
+    padding: 15px 0px;
+   
+  }
+  .payment_back {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+  }
+  .payment_center_text {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .payment_plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FFDE88 0%, #FFB905 100%);
+    height: 25px;
+    width: 28px;
+    border-radius: 50%;
+  }
+  .payment_top_container .Inbox_Arrow{
+    margin: 0;
+  }
+  .payment_top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .payment_setup {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-top: 30px;
+  }
+  .payment_method {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  .credit_card {
+    border: 1.5px solid #323232;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  .credit_card_img {
+    display: flex;
+    align-items: center;
+  }
+  .check_icon {
+  }
+  .payment_continue_btn {
+    background: linear-gradient(180deg, #FFDE88 0%, #FFB905 100%);
+    border-radius: 200px;
+    position: absolute;
+    bottom: 40px;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    width: calc(100% - 40px);
+    color: #000000;
+    margin: 0 20px;
+    left: 0;
+    text-align: center;
+  }

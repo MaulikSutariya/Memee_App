@@ -1,0 +1,210 @@
+.Organized_badge_page{
+    height: 100vh;
+    background: var( --main_page_background_color);
+    overflow: auto;
+
+}
+.org_badge_arrow{
+  padding: 17px;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 5;
+    background: var(--main_page_background_color);
+}
+
+.Search_badgeofotherprofile{
+    width: 95%;
+    margin-top: 4px;
+    padding: 0 5px;
+}
+.Search_badgeofotherprofile input{
+    width: 95%;
+    padding: 9px;
+    color: var( --commentpage_input_text_color);
+    padding-left: 45px;
+    border-style: none;
+    border-radius: 20px;
+    background: var(    --commentpage_input_background-color);
+ 
+    caret-color: var(--commentpage_input_text_color);
+}
+.Search_badgeofotherprofile input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--searchexplore_placeholder_color);
+}
+.Search_badgeofotherprofile svg{
+    position: relative;
+    top: 32px;
+    left: 4.5%;
+    fill: var(--search_explore_svg_color);
+}
+.othrprfilesearchbar{
+    display: flex;
+    align-items: center;
+}
+.filterbadge{
+    background: var(--Search_explore_input_color);
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    padding-top: 6px;
+  text-align: center;
+    margin-top: 25px;
+}
+.filterbadge svg{
+    fill: var(--search_explore_svg_color);
+}
+.badge1ofuser{
+    height: 55px;
+    background-color: white;
+    width: 55px;
+    border-radius: 50%;
+   text-align: center;
+   margin:10px ;
+   padding-top: 10px;
+}
+.b_O_user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-top: 15px;
+    background: #292929;
+    border-radius: 25px;
+    padding: 10px;
+}
+.other_badge_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other_badge_1 h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.first_place_text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  .first_place_small_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8E8DAF;
+    margin-bottom: 8px;
+  }
+
+  .point_needed {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+  }
+  .outer_yellow_fill {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .inner_yellow_fill {
+    background: #FFCD2F;
+    border-radius: 16px;
+    width: 80%;
+    padding: 2px 0;
+  }
+
+
+  .locked_container {
+    background: #292929;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 160px;
+    margin: 5px;
+  }
+  .locked_top_right {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+  .lock_img_bg_color {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+  }
+  .lock_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .first_second_prize {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .lockbadgesee{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+
+.otherpersonbadgefilter{
+    margin-top: 20px;  
+
+}
+.otherfilteroption{
+    display: flex;
+    overflow: scroll;
+    width: 100%;
+}
+.otherpersonbadgefilter h1{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.optofbadgeopt{
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    width: 150px;
+    text-align: center;
+    padding: 0 25px;
+    padding-top: 10px;
+   
+}
+.optofbadgeopt h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.optofbadgeopt2{
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 15px;
+    background: linear-gradient(180deg, #FFDF8D 0%, #F7B60D 100%);
+    border:1px solid ;
+    border-color: linear-gradient(180deg, #FFDF8D 0%, #F7B60D 100%) ;
+    width: 150px;
+    text-align: center;
+    padding: 0 25px;
+    padding-top: 10px;
+   
+}
+.optofbadgeopt2 h5{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+  

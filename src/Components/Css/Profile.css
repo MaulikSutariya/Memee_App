@@ -1,0 +1,222 @@
+.profile{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding-bottom: 80px;
+}
+.Profile_p_1{
+    border-radius: 0px 0px 35px 35px;
+    border: none;
+    height: 500px;
+    background-image: var(--profile_background_image);
+    background-repeat: no-repeat;
+}
+.Profile_p_1_1{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    padding: 17px;
+    padding-top: 25px;
+}
+.Profile_p_1_Pset{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Profile_setndedit{
+    display: flex;
+    align-items: center;
+}
+.P_S_1{
+    background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(5px);
+padding: 7px 10px;
+border-radius: 50%;
+text-align: center;
+}
+.add_coinOfProfile{
+    display: flex;
+    align-items: center;
+    background:var(--addcoin_div_color);
+    padding: 9px;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-style: none;
+}
+.add_coinOfProfile img{
+    height: 16px;
+}
+.add_coinOfProfile h3{
+    font-size: 14px;
+    color: white;
+    margin: 0 2px;
+}
+.profile_1_user{
+    text-align: center;
+    margin-top: 80px;
+}
+.profile_1_user img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.profile_1_user h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.Profile_following{
+    display: flex;
+    justify-content: space-between;
+}
+.Profile_following{
+background: var( --profile_following_back_color);
+backdrop-filter: blur(5px);
+border-radius: 20px;
+padding: 10px 20px;
+margin-top: 35px;
+}
+
+.P_f_1 h3{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+.P_f_1 h4{
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.Profile_following span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+.profile_1_user p{
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.profile_badge{
+    background: var(--profile_badge_bg-color);
+    border-radius: 30px;
+    padding-bottom: 15px;
+}
+.P_B_1_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    margin-top: 5px;
+    align-items: center;
+}
+.P_B_1_1 h3{
+    margin: 0;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+.P_B_1_1 h4{
+    margin: 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+.P_B_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+}
+.P_B_2_2_2{
+    background-color: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding-top: 2px;
+    padding-left: 1px;
+}
+.P_B_2_2 h6{
+    color: rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+.Post_message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+    background: var( --tournamet_options_page_bg_color);
+    border-radius: 25px;
+}
+
+.Post_A_M{
+    width: 100%;
+    padding: 15px 10px;
+   background: var( --Button_theme);
+   border-radius: 25px;
+    text-align: center;
+    border-style: none;
+   
+}
+.Post_A_M h4{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(  --A_M_h4_color);
+}
+.Post_A_M_2 h4{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(  --post_am_h4_color);
+}
+.Post_A_M_2{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: none;
+}
+.postofUser_profile_page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.postofUser_profile_page select{
+    background:var( --tournamet_options_page_bg_color);
+    border-style: none;
+    /* padding: 5px; */
+    padding-left: 25px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+    width: 110px;
+    max-width: 150px;
+}
+.postofUser_profile_page h2{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    font-weight: 400;
+}
+.Posted_profile_by_user{
+    border-radius: 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Posted_profile_by_user img{
+    min-width: 100.5px;
+    width: 175px;
+    max-width: 186px;
+    margin: 2px;
+    border:1px solid black
+}
+

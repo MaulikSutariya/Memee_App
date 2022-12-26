@@ -1,0 +1,66 @@
+.VerifyText h1{
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+}
+.VerifyText p{
+    font-size: 14px;
+    color: rgba(186, 186, 186, 1);
+    margin-top: 17px;
+}
+.VerifyText{
+    margin-top: 27px;
+}
+.VerifyText p span{
+    color: white;
+}
+.verfyotp{
+    display: flex;
+    justify-content: space-around
+}
+.verfyotp input{
+    width: 18%;
+    padding: 10px;
+    background:var(  --main_page_background_color);
+    border: 1px solid white;
+    border-radius: 10px;
+    caret-color: white;
+    color: white;
+    text-align: center;
+}
+.resendotp{
+    text-align: center;
+}
+.resendotp h6{
+    color: rgba(159, 159, 159, 1);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.resendotp h5{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+#resendotphr{
+    margin: 0;
+    border:1px solid white;
+    /* width: 50%; */
+    margin:3px 32%;
+}
+
+
+
+/* media css */
+
+
+@media screen and (max-width: 768px){
+    .verfyotp input{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .verfyotp input{
+        width: 18%;
+    }
+}

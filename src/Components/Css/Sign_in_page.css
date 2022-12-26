@@ -1,0 +1,359 @@
+
+
+
+
+
+/* media css */
+
+
+
+@media screen and (max-width:768px) {
+    .Sign_in_page{
+        background: var(--main_page_background_color);
+        height: 100vh;
+        padding: 20px;
+        overflow: scroll;
+        
+    }
+   
+    .back_Arrow img{
+       margin-top: 15px; 
+       height: 20px;
+       width: 11.25px;
+    }
+    .SignInText h1{
+        color: white;
+        font-size: 41px;
+        font-weight: 600;
+    }
+    .SignInText p{
+        font-size: 14px;
+        color: var( --sign_in_text_p_color);
+        margin-top: 17px;
+    }
+    .SignInText{
+        margin-top: 27px;
+    }
+    .mainContent{
+        padding: 10px;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .yourEmail h5{
+        color: var(  --sign-in_page_input_placeholder);
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .yourEmail input{
+        border-top: none;
+        background: var(--main_page_background_color);
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        border-color:  rgba(69, 69, 69, 1);
+        border-width: 1px;
+        padding: 5px 0;
+        caret-color: white;
+    }
+    .yourEmail input::placeholder{
+        font-size: 12px;
+        color:var( --sign-in_page_input_placeholder2);
+    }
+    .yourEmail{
+        margin-top: 20px;
+    }
+    #visibale{
+        color: white;
+        position: absolute;
+        right: 40px;
+        margin-top: 14px;
+    }
+    .forgotPassword h6{
+        color: var(--movesignupspan_color);
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .forgotPassword{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #Sign_in_button{
+        background:var(--onbording_input_color);
+       border-radius: 30px;
+        width: 100%;
+        border-style: none;
+        padding: 10px 0;
+        margin-top: 25px;
+    }
+    #Sign_in_button span{
+        color: var(--onbording_input_text_color);
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+@media screen and (max-width:425px) {
+    .Sign_in_page{
+        background: var(--main_page_background_color);
+        height: 100vh;
+        padding: 20px;
+    }
+    .back_Arrow img{
+       margin-top: 15px; 
+       height: 20px;
+       width: 11.25px;
+    }
+    .SignInText h1{
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .SignInText p{
+        font-size: 14px;
+        color: var( --sign_in_text_p_color);
+        margin-top: 17px;
+    }
+    .SignInText{
+        margin-top: 27px;
+    }
+    .mainContent{
+        padding: 10px;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .yourEmail h5{
+        color: rgba(186, 186, 186, 1);
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .yourEmail input{
+        border-top: none;
+        background: var(--main_page_background_color);
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        border-color:  rgba(69, 69, 69, 1);
+        border-width: 1px;
+        padding: 5px 0;
+        caret-color: white;
+    }
+    .yourEmail input::placeholder{
+        font-size: 12px;
+        color: var(  --sign-in_page_input_placeholder);
+    }
+    .yourEmail{
+        margin-top: 20px;
+    }
+    #visibale{
+        color: white;
+        position: absolute;
+        right: 40px;
+        margin-top: 14px;
+    }
+    .forgotPassword h6{
+        color: var(--movesignupspan_color);
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .forgotPassword{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #Sign_in_button{
+        background:var(--onbording_input_color);
+       border-radius: 30px;
+        width: 100%;
+        border-style: none;
+        padding: 10px 0;
+        margin-top: 25px;
+    }
+    #Sign_in_button span{
+        color: var(--onbording_input_text_color);
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .Sign_in_page{
+        background: var(--main_page_background_color);
+        height: 100vh;
+        padding: 20px;
+    }
+    .back_Arrow img{
+       margin-top: 15px; 
+       height: 20px;
+       width: 11.25px;
+    }
+    .SignInText h1{
+        color: white;
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .SignInText p{
+        font-size: 14px;
+        color: var( --sign_in_text_p_color);
+        margin-top: 17px;
+    }
+    .SignInText{
+        margin-top: 27px;
+    }
+    .mainContent{
+        padding: 10px;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .yourEmail h5{
+        color: rgba(186, 186, 186, 1);
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .yourEmail input{
+        border-top: none;
+        background: var(--main_page_background_color);
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        border-color:  rgba(69, 69, 69, 1);
+        border-width: 1px;
+        padding: 5px 0;
+        caret-color: white;
+    }
+    .yourEmail input::placeholder{
+        font-size: 12px;
+        color: var(  --sign-in_page_input_placeholder);
+    }
+    .yourEmail{
+        margin-top: 20px;
+    }
+    #visibale{
+        color: white;
+        position: absolute;
+        right: 40px;
+        margin-top: 14px;
+    }
+    .forgotPassword h6{
+        color: var(--movesignupspan_color);
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .forgotPassword{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #Sign_in_button{
+        background:var(--onbording_input_color);
+       border-radius: 30px;
+        width: 100%;
+        border-style: none;
+        padding: 10px 0;
+        margin-top: 25px;
+    }
+    #Sign_in_button span{
+        color: var(--onbording_input_text_color);
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .Sign_in_page{
+        background: var(--main_page_background_color);
+        height: 100vh;
+        padding: 20px;
+    }
+    .back_Arrow img{
+       margin-top: 15px; 
+       height: 20px;
+       width: 11.25px;
+    }
+    .SignInText h1{
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .SignInText p{
+        font-size: 14px;
+        color: var( --sign_in_text_p_color);
+        margin-top: 17px;
+    }
+    .SignInText{
+        margin-top: 27px;
+    }
+    .mainContent{
+        padding: 10px;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .yourEmail h5{
+        color: rgba(186, 186, 186, 1);
+        font-size: 11px;
+        line-height: 12px;
+    }
+    .yourEmail input{
+        border-top: none;
+        background: var(--main_page_background_color);
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        border-color:  rgba(69, 69, 69, 1);
+        border-width: 1px;
+        padding: 5px 0;
+        caret-color: white;
+        color: white;
+    }
+    .yourEmail input::placeholder{
+        font-size: 12px;
+        color: var(  --sign-in_page_input_placeholder);
+        
+    }
+    .yourEmail{
+        margin-top: 20px;
+    }
+    #visibale{
+        color: white;
+        position: absolute;
+        right: 40px;
+        margin-top: 14px;
+    }
+    .forgotPassword h6{
+        color: var(--movesignupspan_color);
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .forgotPassword{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #Sign_in_button{
+        background:var(--onbording_input_color);
+       border-radius: 30px;
+        width: 100%;
+        border-style: none;
+        padding: 10px 0;
+        margin-top: 25px;
+    }
+    #Sign_in_button span{
+        color: var(--onbording_input_text_color);
+        font-size: 17px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,31 @@
+.Tournament_congratulations_page{
+    height: 100vh;
+    background-color: black;
+    overflow: auto;
+}
+
+.star_background {
+    /* background: #000000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    margin-top: 120px;
+  }
+  .congratulation_text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+  .joined_message {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 15px;
+  }

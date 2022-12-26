@@ -1,0 +1,54 @@
+.Post_Img_Page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+}
+.P_I_post h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.P_I_post img{
+    margin-top: 5px;
+    width: 100%;
+}
+.P_I_like{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.P_I_like_1{
+    display: flex;
+    align-items: center;
+    background: rgba(41, 41, 41, 1);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.P_I_like_1 h5{
+    margin: 0;
+    color: rgba(0, 163, 68, 1);
+
+}
+.P_I_like_1 img{
+    margin-right: 5px;
+}
+
+.P_I_like_2{
+    display: flex;
+    align-items: center;
+    background: rgba(41, 41, 41, 1);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.P_I_like_2 h5{
+    margin: 0;
+    color: red;
+}
+.P_I_like_2 img{
+    margin-right: 5px;
+}

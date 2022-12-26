@@ -1,0 +1,119 @@
+.Payment_Add_card_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+    padding: 17px;
+}
+
+.add_card_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .add_card_back {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+  }
+  .add_card_wrapper {
+    width: 100%;
+    padding: 5px 0px;
+  }
+  .add_card_center_text {
+    color: white;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .full_name_font {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .name_country_password {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CCCCCC;
+    margin-bottom: 10px;
+  }
+  .expiry_date {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+   margin-top: 15px;
+  }
+  .expiry_date input{
+    background-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 15px;
+    
+  }
+  .save_card_yellow {
+    background: linear-gradient(180deg, #FFDE88 0%, #FFB905 100%);
+    border-radius: 200px;
+    position: absolute;
+    bottom: 25px;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    width: calc(100% - 40px);
+    color: #000000;
+    margin: 0 20px;
+    left: 0;
+    text-align: center;
+  }
+  .addcardpayment_page_main{
+    margin-top: 35px;
+    padding: 0px 25px;
+  }
+  #hrodaffcard{
+    border:1px solid white;
+  }
+  .name_here_input input{
+    background-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .canadainputofaddcard{
+    margin-top: 15px;
+}
+.canadainputofaddcard input{
+    background-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.cardnumpassword{
+    margin-top: 15px;
+}
+.cardnumpassword input{
+    background-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 15px;
+}

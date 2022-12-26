@@ -1,0 +1,31 @@
+.Congratulations_page{
+    height: 100vh;
+    /* background-image: radial-gradient( black,rgb(235, 121, 235) , rgb(0, 0, 0),black,black,black ); */
+    background-color: black;
+    overflow: auto;
+    text-align: center;
+}
+.trophyofcongo img{
+  
+}
+.trophyofcongo {
+    /* background-image: conic-gradient(at 50% 50%,rgba(58, 56, 56, 0.027),rgba(151, 117, 151, 0.644),rgba(163, 105, 163, 0.774),rgba(0, 0, 0, 0.219),rgba(158, 83, 158, 0.507),rgba(148, 89, 148, 0.664),rgba(94, 91, 91, 0.253),rgba(179, 101, 179, 0.774),rgba(168, 97, 168, 0.815),rgba(87, 82, 82, 0.356));
+    opacity: 90%; */
+    /* height: 100vh; */
+    margin-top: 60px;
+    
+}
+.trophyofcongo2 h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+    font-weight: 500;
+}
+.trophyofcongo2 h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.trophyofcongo2{
+    padding: 0 20px;
+}

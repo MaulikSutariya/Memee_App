@@ -1,0 +1,37 @@
+.navbar{
+    position: absolute;
+    bottom: 0;
+    background: var(--Navbar_theme);
+    box-shadow: var(--Navbar_Background_shadow);
+    border-radius:20px 20px 0px 0px ;
+    width: 100%;
+    padding: 9px 15px;
+}
+
+
+.home h6{
+    color: var( --Navbar_font_color);
+    font-size: 11px;
+    margin: 0;
+    margin-top: 10%;
+}
+.home{
+    text-align: center;
+}
+
+.home2 h6{
+    color: var( --Navbar_Currant_page_font_color);
+    font-size: 11px;
+    margin: 0;
+    margin-top: 10%;
+}
+.home2{
+    text-align: center;
+}
+.home3{
+   margin-top: -50px;
+}
+.home3 img{
+    height: 50px;
+}
+

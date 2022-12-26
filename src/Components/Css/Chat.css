@@ -1,0 +1,130 @@
+.chat_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: scroll;
+}
+.Chat_Profile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    padding-bottom:15px ;
+    background: var(--main_page_background_color);
+    z-index: 5;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.User_photo_Chat{
+    display: flex;
+    margin-left: 18px;
+    align-items: center;
+}
+#userchatprofile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#chat_profile_img{
+    height: 100%;
+}
+.User_chat_details{
+    margin-left: 15px;
+}
+.User_chat_details h5{
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    font-size: 17px;
+}
+.User_chat_details h6{
+    color: #D9D9D9;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 1px;
+}
+#I_b_U_5{
+    position: absolute;
+    left: 86px;
+    top: 57px;
+}
+.Chat_Chat{
+    position: relative;
+    top: 75px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.user_chat_1{
+    /* background:var(--Button_theme); */
+    background:  linear-gradient(180deg, #FFE299 0%, #F6B202 100%);
+    padding: 15px 20px;
+    width: 100%;
+    border-radius:15px 15px 0px  15px ;
+    border-style: none;
+    width: 75%;
+    margin-top: 20px;
+}
+.user_chat_1_1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.user_chat_1 h5{
+    margin: 0;
+    font-size: 13px;
+    /* color: white */
+}
+.user_chat_2 h5{
+    margin: 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 1);
+    font-weight:400 ;
+}
+.user_chat_2{
+    background: rgba(52, 52, 52, 1);
+    margin-top: 20px;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius:15px 15px 15px  0px ;
+    border-style: none;
+    width: 75%;
+}
+.chat_keyboard{
+    position: fixed;
+    background: var(--main_page_background_color);
+    z-index: 5px;
+    padding: 15px  ;
+    justify-content: space-evenly;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.chat_keyboard img{
+    height: 100%;
+}
+#chat_emoji{
+    position: absolute;
+    height: 23px;
+    bottom: 25px;
+    right: 68px;
+}
+.chat_keyboard input{
+    caret-color: white;
+    padding: 10px;
+    background:var( --tournamet_options_page_bg_color);
+    border-style: none;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    padding-left: 15px;
+}
+.chat_input{
+    width: 100%;
+    padding: 0 20px;
+}
+.chat_keyboard svg{
+    fill: rgba(255, 195, 45, 1);
+}

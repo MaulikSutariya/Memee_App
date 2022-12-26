@@ -1,0 +1,67 @@
+.New_message_page{
+    height: 100vh;
+    background: var(--main_page_background_color);
+    overflow: auto;
+}
+.New_Messsage_Arrow{
+    display: flex;
+    margin: 24px 17px;
+    align-items: center;
+}
+.New_Messsage_Arrow h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.New_mess_to{
+    display: flex;
+    align-items: center;
+    background: var( --Search_explore_input_color);
+    padding: 6px ;
+    border-radius: 24px;
+    padding-left: 25px;
+    margin: 0 15px;
+
+}
+.New_mess_to input{
+    background: var( --Search_explore_input_color);
+    border-style: none;
+ 
+    margin-left: 5px;
+  
+    color:var(  --commentpage_input_text_color) ;
+    caret-color:var(  --commentpage_input_text_color) ;
+}
+.New_mess_to h6{
+    color: var(--new_mess_h6_color);
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.N_M_1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.new_message_user{
+    margin-top: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.N_M_1_details{
+    margin-left: 12px;
+}
+.N_M_1_details h5{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.N_M_1_details h6{
+    margin: 0;
+    color: rgba(197, 197, 197, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 1px;
+}
